@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+gmf_dashboard/domainGenerationModel=platform\:/resource/DecourvalProjectGMF/model/FriendzGMF(WithoutLike).genmodel
+gmf_dashboard/domainModel=platform\:/resource/DecourvalProjectGMF/model/FriendzGMF(WithoutLike).ecore
+gmf_dashboard/generationModel=platform\:/resource/DecourvalProjectGMF/model/FriendzGMF.gmfgen
+gmf_dashboard/graphicalDefinitionModel=platform\:/resource/DecourvalProjectGMF/model/FriendzGMF(WithoutLike).gmfgraph
+gmf_dashboard/mappingModel=platform\:/resource/DecourvalProjectGMF/model/FriendzGMF(WithoutLike).gmfmap
+gmf_dashboard/toolingDefinitionModel=platform\:/resource/DecourvalProjectGMF/model/FriendzGMF(WithoutLike).gmftool

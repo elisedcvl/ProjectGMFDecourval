@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:friendz="friendz.ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_-3UF8JzxEeWiRPdTrumzxg" type="FriendzGMF(WithoutLike)" name="default.friendz_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_1b_5cJ2eEeWfNvjeFDDFzA" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_1cMGsJ2eEeWfNvjeFDDFzA" type="5001"/>
+    <element xmi:type="friendz:User" href="default.friendz#//@users.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1b_5cZ2eEeWfNvjeFDDFzA" x="575" y="30" width="101" height="61"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_log9IJ2fEeW1qsGSKqTiMg" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_log9Ip2fEeW1qsGSKqTiMg" type="5001"/>
+    <element xmi:type="friendz:User" href="default.friendz#//@users.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_log9IZ2fEeW1qsGSKqTiMg" x="520" y="190" width="116" height="71"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_o1NioJ2fEeW1qsGSKqTiMg" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_o1Niop2fEeW1qsGSKqTiMg" type="5001"/>
+    <element xmi:type="friendz:User" href="default.friendz#//@users.2"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1NioZ2fEeW1qsGSKqTiMg" x="570" y="360" width="131" height="61"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_tsezkJ2fEeW1qsGSKqTiMg" type="2003" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_tsezkp2fEeW1qsGSKqTiMg" type="5003"/>
+    <element xmi:type="friendz:Comment" href="default.friendz#//@comments.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tsezkZ2fEeW1qsGSKqTiMg" x="95" y="360" width="141" height="56"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_v4uosJ2fEeW1qsGSKqTiMg" type="2002" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_v4uosp2fEeW1qsGSKqTiMg" type="5002"/>
+    <element xmi:type="friendz:Publication" href="default.friendz#//@publications.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4uosZ2fEeW1qsGSKqTiMg" x="100" y="200" width="161" height="51"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0BbjcJ2fEeW1qsGSKqTiMg" type="2002" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0Bbjcp2fEeW1qsGSKqTiMg" type="5002"/>
+    <element xmi:type="friendz:Publication" href="default.friendz#//@publications.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0BbjcZ2fEeW1qsGSKqTiMg" x="105" y="25" width="176" height="76"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_2KNN0J2fEeW1qsGSKqTiMg" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_2KNN0p2fEeW1qsGSKqTiMg" type="5001"/>
+    <element xmi:type="friendz:User" href="default.friendz#//@users.3"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2KNN0Z2fEeW1qsGSKqTiMg" x="370" y="90" width="86" height="56"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_-3UF8ZzxEeWiRPdTrumzxg"/>
+  <element xmi:type="friendz:Friendz" href="default.friendz#/"/>
+</notation:Diagram>

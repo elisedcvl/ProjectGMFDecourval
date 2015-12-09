@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<friendz:Friendz xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:friendz="friendz.ecore">
+  <users firstName="Lannister"/>
+  <users firstName="Baratheon"/>
+  <users firstName="Targaryan"/>
+  <users firstName="Stark"/>
+  <publications publication="Winter is Comming"/>
+  <publications publication="Winter is Comming"/>
+  <comments comment="Me too lol"/>
+</friendz:Friendz>

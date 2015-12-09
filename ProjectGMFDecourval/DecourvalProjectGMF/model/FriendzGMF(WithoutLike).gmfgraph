@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmfgraph:Canvas xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gmfgraph="http://www.eclipse.org/gmf/2006/GraphicalDefinition" name="friendz">
+  <figures name="Default">
+    <descriptors name="UserFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="UserFigure">
+        <layout xsi:type="gmfgraph:FlowLayout"/>
+        <children xsi:type="gmfgraph:Label" name="UserIdUserFigure" text="&lt;...>"/>
+        <children xsi:type="gmfgraph:Label" name="UserFirstNameFigure" text="&lt;...>"/>
+        <children xsi:type="gmfgraph:Label" name="UserLastNameFigure" text="&lt;...>"/>
+      </actualFigure>
+      <accessors figure="//@figures.0/@descriptors.0/@actualFigure/@children.0"/>
+      <accessors figure="//@figures.0/@descriptors.0/@actualFigure/@children.1"/>
+      <accessors figure="//@figures.0/@descriptors.0/@actualFigure/@children.2"/>
+    </descriptors>
+    <descriptors name="PublicationFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="PublicationFigure">
+        <layout xsi:type="gmfgraph:FlowLayout"/>
+        <children xsi:type="gmfgraph:Label" name="PublicationIdPubFigure" text="&lt;...>"/>
+        <children xsi:type="gmfgraph:Label" name="PublicationPublicationFigure" text="&lt;...>"/>
+        <children xsi:type="gmfgraph:Label" name="PublicationDatePubFigure" text="&lt;...>"/>
+      </actualFigure>
+      <accessors figure="//@figures.0/@descriptors.1/@actualFigure/@children.0"/>
+      <accessors figure="//@figures.0/@descriptors.1/@actualFigure/@children.1"/>
+      <accessors figure="//@figures.0/@descriptors.1/@actualFigure/@children.2"/>
+    </descriptors>
+    <descriptors name="UserFigureBis">
+      <actualFigure xsi:type="gmfgraph:Ellipse" name="UserFigure">
+        <layout xsi:type="gmfgraph:FlowLayout"/>
+        <children xsi:type="gmfgraph:Label" name="UserIdUserFigure" text="&lt;...>"/>
+        <children xsi:type="gmfgraph:Label" name="UserFirstNameFigure" text="&lt;...>"/>
+        <children xsi:type="gmfgraph:Label" name="UserLastNameFigure" text="&lt;...>"/>
+      </actualFigure>
+      <accessors figure="//@figures.0/@descriptors.0/@actualFigure/@children.0"/>
+      <accessors figure="//@figures.0/@descriptors.0/@actualFigure/@children.1"/>
+      <accessors figure="//@figures.0/@descriptors.0/@actualFigure/@children.2"/>
+    </descriptors>
+    <descriptors name="CommentFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="CommentFigure">
+        <layout xsi:type="gmfgraph:FlowLayout"/>
+        <children xsi:type="gmfgraph:Label" name="CommentIdComFigure" text="&lt;...>"/>
+        <children xsi:type="gmfgraph:Label" name="CommentCommentFigure" text="&lt;...>"/>
+        <children xsi:type="gmfgraph:Label" name="CommentDateComFigure" text="&lt;...>"/>
+      </actualFigure>
+      <accessors figure="//@figures.0/@descriptors.3/@actualFigure/@children.0"/>
+      <accessors figure="//@figures.0/@descriptors.3/@actualFigure/@children.1"/>
+      <accessors figure="//@figures.0/@descriptors.3/@actualFigure/@children.2"/>
+    </descriptors>
+    <descriptors name="EnemityFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="EnemityFigure"/>
+    </descriptors>
+    <descriptors name="FriendshipFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="FriendshipFigure"/>
+    </descriptors>
+    <descriptors name="AuthorshipFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="AuthorshipFigure"/>
+    </descriptors>
+    <descriptors name="PubliRefFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="PubliRefFigure" lineKind="LINE_DASH"/>
+    </descriptors>
+    <descriptors name="CommentFigureBis">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="CommentFigure">
+        <layout xsi:type="gmfgraph:FlowLayout"/>
+        <children xsi:type="gmfgraph:Label" name="CommentIdComFigure" text="&lt;...>"/>
+        <children xsi:type="gmfgraph:Label" name="CommentCommentFigure" text="&lt;...>"/>
+        <children xsi:type="gmfgraph:Label" name="CommentDateComFigure" text="&lt;...>"/>
+      </actualFigure>
+      <accessors figure="//@figures.0/@descriptors.3/@actualFigure/@children.0"/>
+      <accessors figure="//@figures.0/@descriptors.3/@actualFigure/@children.1"/>
+      <accessors figure="//@figures.0/@descriptors.3/@actualFigure/@children.2"/>
+    </descriptors>
+  </figures>
+  <nodes name="User" figure="UserFigureBis"/>
+  <nodes name="Publication" figure="PublicationFigure"/>
+  <nodes name="Comment" figure="CommentFigureBis"/>
+  <connections name="Enemity" figure="EnemityFigure"/>
+  <connections name="Friendship" figure="FriendshipFigure"/>
+  <connections name="Authorship" figure="AuthorshipFigure"/>
+  <connections name="PubliRef" figure="PubliRefFigure"/>
+  <labels name="UserIdUser" figure="UserFigure" accessor="//@figures.0/@descriptors.0/@accessors.0"/>
+  <labels name="UserFirstName" figure="UserFigure" accessor="//@figures.0/@descriptors.0/@accessors.1"/>
+  <labels name="UserLastName" figure="UserFigure" accessor="//@figures.0/@descriptors.0/@accessors.2"/>
+  <labels name="PublicationIdPub" figure="PublicationFigure" accessor="//@figures.0/@descriptors.1/@accessors.0"/>
+  <labels name="PublicationPublication" figure="PublicationFigure" accessor="//@figures.0/@descriptors.1/@accessors.1"/>
+  <labels name="PublicationDatePub" figure="PublicationFigure" accessor="//@figures.0/@descriptors.1/@accessors.2"/>
+  <labels name="CommentIdCom" figure="CommentFigure" accessor="//@figures.0/@descriptors.3/@accessors.0"/>
+  <labels name="CommentComment" figure="CommentFigure" accessor="//@figures.0/@descriptors.3/@accessors.1"/>
+  <labels name="CommentDateCom" figure="CommentFigure" accessor="//@figures.0/@descriptors.3/@accessors.2"/>
+</gmfgraph:Canvas>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/DecourvalProjectGMF/src" modelPluginID="DecourvalProjectGMF"
+    modelName="FriendzGMF(WithoutLike)" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="6.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>FriendzGMF(WithoutLike).ecore</foreignModel>
+  <genPackages prefix="Friendz" disposableProviderFactory="true" ecorePackage="FriendzGMF(WithoutLike).ecore#/">
+    <genClasses ecoreClass="FriendzGMF(WithoutLike).ecore#//Friendz">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference FriendzGMF(WithoutLike).ecore#//Friendz/users"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference FriendzGMF(WithoutLike).ecore#//Friendz/friendships"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference FriendzGMF(WithoutLike).ecore#//Friendz/enemities"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference FriendzGMF(WithoutLike).ecore#//Friendz/publications"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference FriendzGMF(WithoutLike).ecore#//Friendz/comments"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference FriendzGMF(WithoutLike).ecore#//Friendz/authorships"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference FriendzGMF(WithoutLike).ecore#//Friendz/publiRefs"/>
+    </genClasses>
+    <genClasses ecoreClass="FriendzGMF(WithoutLike).ecore#//User">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute FriendzGMF(WithoutLike).ecore#//User/idUser"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute FriendzGMF(WithoutLike).ecore#//User/firstName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute FriendzGMF(WithoutLike).ecore#//User/lastName"/>
+    </genClasses>
+    <genClasses ecoreClass="FriendzGMF(WithoutLike).ecore#//Publication">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute FriendzGMF(WithoutLike).ecore#//Publication/idPub"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute FriendzGMF(WithoutLike).ecore#//Publication/publication"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute FriendzGMF(WithoutLike).ecore#//Publication/datePub"/>
+      <genOperations ecoreOperation="FriendzGMF(WithoutLike).ecore#//Publication/isAuthor">
+        <genParameters ecoreParameter="FriendzGMF(WithoutLike).ecore#//Publication/isAuthor/p"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="FriendzGMF(WithoutLike).ecore#//Comment">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute FriendzGMF(WithoutLike).ecore#//Comment/idCom"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute FriendzGMF(WithoutLike).ecore#//Comment/comment"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute FriendzGMF(WithoutLike).ecore#//Comment/dateCom"/>
+    </genClasses>
+    <genClasses ecoreClass="FriendzGMF(WithoutLike).ecore#//Enemity">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference FriendzGMF(WithoutLike).ecore#//Enemity/user1"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference FriendzGMF(WithoutLike).ecore#//Enemity/user2"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute FriendzGMF(WithoutLike).ecore#//Enemity/dateEnemy"/>
+    </genClasses>
+    <genClasses ecoreClass="FriendzGMF(WithoutLike).ecore#//Friendship">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference FriendzGMF(WithoutLike).ecore#//Friendship/user3"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference FriendzGMF(WithoutLike).ecore#//Friendship/user4"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute FriendzGMF(WithoutLike).ecore#//Friendship/dateFriend"/>
+    </genClasses>
+    <genClasses ecoreClass="FriendzGMF(WithoutLike).ecore#//Authorship">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference FriendzGMF(WithoutLike).ecore#//Authorship/author"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference FriendzGMF(WithoutLike).ecore#//Authorship/publi"/>
+    </genClasses>
+    <genClasses ecoreClass="FriendzGMF(WithoutLike).ecore#//PubliRef">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference FriendzGMF(WithoutLike).ecore#//PubliRef/publi"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference FriendzGMF(WithoutLike).ecore#//PubliRef/publiRef"/>
+      <genOperations ecoreOperation="FriendzGMF(WithoutLike).ecore#//PubliRef/isAuthor">
+        <genParameters ecoreParameter="FriendzGMF(WithoutLike).ecore#//PubliRef/isAuthor/p"/>
+      </genOperations>
+      <genOperations ecoreOperation="FriendzGMF(WithoutLike).ecore#//PubliRef/isFriend">
+        <genParameters ecoreParameter="FriendzGMF(WithoutLike).ecore#//PubliRef/isFriend/u"/>
+      </genOperations>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

@@ -1,0 +1,7 @@
+# Tracing options for the DecourvalProjectGMF.diagram plug-in
+
+# Common issues
+DecourvalProjectGMF.diagram/debug=false
+
+# Visual IDs
+DecourvalProjectGMF.diagram/debug/visualID=false
